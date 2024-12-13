@@ -16,7 +16,7 @@ export default class App extends Component {
   state = {
     progre: 0
   }
-  country = "in";
+  country = "us";
   setProgress=(progress)=>{
     this.setState({
       progre: progress
